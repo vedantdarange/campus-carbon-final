@@ -1,0 +1,51 @@
+{
+  "name": "dashboard",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@rollup/plugin-dsv": "^3.0.5",
+    "@types/d3-sankey": "^0.12.5",
+    "@types/leaflet": "^1.9.21",
+    "chart.js": "^4.5.1",
+    "clsx": "^2.1.1",
+    "csv-parser": "^3.2.0",
+    "d3": "^7.9.0",
+    "d3-sankey": "^0.12.3",
+    "d3-shape": "^3.2.0",
+    "framer-motion": "^12.34.4",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.300.0",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.3.1",
+    "react-countup": "^6.5.3",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1",
+    "react-router-dom": "^7.13.1",
+    "recharts": "^3.7.0",
+    "tailwind-merge": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.3",
+    "@types/d3-shape": "^3.1.8",
+    "@types/node": "^20.10.5",
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@typescript-eslint/eslint-plugin": "^8.56.1",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.16",
+    "csc": "^0.40.1",
+    "eslint": "^9.39.3",
+    "eslint-plugin-react": "^7.37.5",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.0",
+    "tslint": "^5.20.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.8"
+  }
+}
